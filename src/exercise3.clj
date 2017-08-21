@@ -2,7 +2,7 @@
 
 (defn fibonacci
   "Fibonacci"
-  [numero]
-  (if (< numero 2)
-  	numero
-  	(+ (fibonacci (- numero 1)) (fibonacci (- numero 2)))))
+  [number]
+  (if (< number 2)
+  	number
+  	(+ (fibonacci (- number 1)) (fibonacci (- number 2)))))
